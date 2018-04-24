@@ -1,0 +1,50 @@
+.cryptocurrency {
+    padding: 1rem 2rem 2rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    min-width: 9rem;
+    -webkit-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    border-radius: .375rem;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;   
+}
+
+.cryptocurrency:hover {
+        box-shadow: 0 0 1px rgba(39,44,49,.1), 0 3px 16px rgba(39,44,49,.07);
+        transition: all .3s ease;
+        transform: translate3D(0,-1px,0);
+}
+
+.cryptocurrency p {
+    color: #fff;
+}
+
+.cryptocurrency h1 {
+    color: rgb(255, 255, 255);
+}
+
+.cryptocurrency-name {
+    font-size: 1.25rem;
+}
+.bitcoin {
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.ethereum {
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FA5A74, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FA5A74, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+.litecoin {
+    background: #3BD884;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #3BD884);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #3BD884); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+@media only screen and (max-width: 335px) {
+    .bitcoin {
+        width: 100%;
+    }
+}

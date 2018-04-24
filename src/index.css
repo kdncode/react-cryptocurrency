@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: -webkit-gradient(linear,left top,left bottom,from(#2f0045),to(#552660));
+  background: -webkit-linear-gradient(top,#2f0045,#552660);
+  background: -o-linear-gradient(top,#2f0045,#552660);
+  background: linear-gradient(180deg,#2f0045,#552660);
+}
